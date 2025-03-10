@@ -1,0 +1,174 @@
+body {
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+
+/*---header----------------------------------------------------------*/
+.header {
+ /* 30% of the viewport height */
+  text-align: center;
+  width: 100%;
+}
+.navbar-brand {
+  font-size: 35px;
+ font-weight: bold;
+ display: flex;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-top: 0;
+ font-size: 20px;
+ font-weight: bold;
+}
+ 
+.navbar-nav :hover {
+  color : rgb(117, 178, 212);
+}
+/*--carousel---------------------------------------------------------*/
+.carousel img {
+  width: 100%;
+  height: 700px;
+  filter: grayscale(0%);
+}
+
+.carousel span {
+  font-size: 60px;
+  text-align: center;
+  color : white;
+  background-color: rgba(180, 179, 179, 0.253);
+}
+
+#carousel_button{
+  color : rgb(29, 29, 29); 
+}
+/*---main----------------------------------------------------------*/
+
+container {
+  display: flex;
+  flex-direction: column; /* Arrange divs vertically */
+  flex-grow: 1; /* Allow the main content to take the remaining height */
+  overflow-y: auto;
+ /* Ensure the main content does not overlap the header */
+}
+
+ div {
+  position: relative;
+  margin: 20px 0; /* Add margin for spacing between images */
+  text-align: center; /* Center the text */
+}
+div span {
+ 
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-family: 'Gill Sans';
+  font-size: 20px;
+  
+  padding: 5px;
+}
+#carouselExampleAutoplaying span {
+  position: absolute;
+}
+.explain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0; 
+}
+
+/* Styling for the image section */
+.image-section {
+  flex: 1;
+  margin-right: 20px;
+  height: 300px;
+}
+
+.image {
+  width: 100%; /* Image will take the full width of the container */
+  height:100%;
+  object-fit: cover;
+  border-radius: 8px; /* Optional: add rounded corners to the image */
+}
+
+.image :hover {
+  opacity: 0.7; /* Make the image slightly transparent */
+  transition: opacity 0.3s ease; 
+}
+
+#monet {  
+  flex: 2; 
+}
+#sqar1, #sqar2 {
+  height : 800px;
+}
+#spar3 {
+  height : 500px;
+  flex: 2; 
+}
+/* Styling for the text section */
+.text-section {
+  flex: 1;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.text-section h2 {
+  font-size: 36px;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+}
+
+.text-section h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  color: #666;
+  margin-top: 100px;
+  
+}
+
+.text-section p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: -100px;
+}
+
+/*---footer----------------------------------------------------------*/
+.footer {
+  height: 5%; /* 5% of the viewport height */
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 200px;
+}
+
+.contact {
+  display: inline-block;
+}
+
+.contact span {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+  float:left;
+}
+
+.contact p {
+  float:right;
+  margin-top: 20px;
+}
+.menuopen {
+ display: flex;
+ justify-content: space-evenly;
+
+}
+.menuopen div {
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
