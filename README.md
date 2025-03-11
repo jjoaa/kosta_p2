@@ -3,7 +3,13 @@
 ### 요약
 > 🏛 **The Museum**은 여러 박물관들의 미술작품 중에서 개인 취향을 모아 만든 사이트입니다. \
 HTML과 CSS을 사용하여 웹 페이지를 제작하였습니다.
-> 
+
+<br /> <br /> 
+### 🌍 Live Demo (배포된 웹 사이트)
+[The Museum 웹사이트 보기] (https://jjoaa.github.io/kosta_p2/)
+
+<br /> <br />
+
 ![Image](https://github.com/user-attachments/assets/cd2ed4d1-4b0d-4fb1-ab83-5cdec3a631d2)
 ![Image](https://github.com/user-attachments/assets/f0a4f4a4-b7ec-43de-ba6a-176afb7ba448)
 ![Image](https://github.com/user-attachments/assets/a465db64-0e68-4cc8-8991-87c678bbd41a)
@@ -79,11 +85,6 @@ The Museum/
 ![Image](https://github.com/user-attachments/assets/286cb997-b4a1-461e-9154-5b2711407f70)
 <br /> <br /> <br />
 
-
-### 🌍 Live Demo (배포된 웹 사이트)
-[The Museum 웹사이트 보기]  https://jjoaa.github.io/kosta_p2/main.html
-
-<br /><br /> <br /> <br /><br /> <br /><br /><br /> <br /><br /><br /> <br /><br /><br /> <br /><br /><br /> <br />
 ## 5. 아쉬웠던 부분
 - header와 fotter 부분을 화면 full로 구현하고 싶었는데 div 부분이 아직 미숙했음. 
 - 모바일도 같이 구현하지 못해 아쉬움.
@@ -98,6 +99,4 @@ The Museum/
 
 
 
-
-
-
+<br /><br /> <br /> 
