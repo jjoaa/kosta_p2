@@ -86,8 +86,8 @@ The Museum/
 <br /> <br /> <br />
 
 ## 5. 아쉬웠던 부분
-- header와 fotter 부분을 화면 full로 구현하고 싶었는데 div 부분이 아직 미숙했음. 
-- 모바일도 같이 구현하지 못해 아쉬움.
+- header와 footer 부분을 화면 full로 구현하고 싶었는데 div 부분이 아직 미숙했음. 
+- 반응형 웹을 구현하지 못해 아쉬움.
 
 <br /><br /> <br /> 
 
